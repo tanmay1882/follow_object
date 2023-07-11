@@ -20,6 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'follow = follow_object.follower:main',
+            'calibrate = follow_object.calibrate:main'
         ],
     },
 )
